@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapping [
+  <!ELEMENT mapping    (requestParameter)>
+  <!ELEMENT requestParameter      (objectMapping)>
+  <!ELEMENT objectMapping    (property)>
+  <!ELEMENT property (#PCDATA)>
+]>
+

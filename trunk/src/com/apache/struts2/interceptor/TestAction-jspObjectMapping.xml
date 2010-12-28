@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping> 
+	<requestParameter name="userName">
+		<objectMapping>
+			<property>user.userName</property>
+		</objectMapping>
+		<objectMapping>
+			<property>user.isLoggedIn</property>						
+		</objectMapping>		
+	</requestParameter>
+	<requestParameter name="password">
+		<objectMapping>
+			<property>user.password</property>						
+		</objectMapping>
+		<objectMapping>
+			<property>user.role</property>						
+		</objectMapping>
+		<objectMapping>
+			<property>user.lastLogin</property>						
+		</objectMapping>
+	</requestParameter>	
+</mapping> 
+

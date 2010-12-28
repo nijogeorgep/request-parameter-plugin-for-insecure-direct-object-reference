@@ -1,0 +1,17 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+    
+<struts>
+   
+	<constant name="struts.class.reloading.watchList" value="" />
+    <constant name="struts.class.reloading.acceptClasses" value="" />
+    <constant name="struts.class.reloading.reloadConfig" value="false" />
+
+    <package name="jsp-parameter-object-mapping">
+        <interceptors>
+			<interceptor name="parameterToActionObjectMapping"
+				class="com.apache.struts2.interceptor.ParameterToActionObjectMappingInterceptor" />        
+        </interceptors>
+    </package>    
+</struts>    
